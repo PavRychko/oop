@@ -92,7 +92,7 @@ public class EmployeeService {
         }
         return employ;
     }
-// не протестовано
+
     Employee edit(Employee employee){
        long id = employee.getId();
        Employee old = getById(id);
