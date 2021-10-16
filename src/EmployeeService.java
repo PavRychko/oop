@@ -6,8 +6,8 @@ public class EmployeeService {
         this.employees = employees;
     }
 
-    public Employee[] getEmployees(){
-        return this.employees;
+    public Employee[] getEmployees() {
+        return employees;
     }
 
     void printEmployees() {
